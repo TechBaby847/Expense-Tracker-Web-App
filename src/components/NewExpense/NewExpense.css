@@ -1,0 +1,53 @@
+.new-expense {
+  background: rgb(89, 99, 122);
+  background: radial-gradient(
+    circle,
+    rgba(89, 99, 122, 0.6390134529147982) 17%,
+    rgba(49, 97, 140, 0.6345291479820627) 34%,
+    rgba(16, 95, 154, 0.6390134529147982) 48%,
+    rgba(16, 73, 154, 0.6390134529147982) 59%,
+    rgba(16, 44, 154, 0.6233183856502242) 74%,
+    rgba(16, 88, 154, 0.6098654708520179) 86%,
+    rgba(16, 135, 154, 0.6278026905829597) 99%
+  );
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #40005d;
+  background: rgb(89, 99, 122);
+  background: linear-gradient(
+    90deg,
+    rgba(89, 99, 122, 0.6390134529147982) 0%,
+    rgba(144, 87, 170, 1) 0%
+  );
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  background: rgb(182, 79, 177);
+  border-color: #f726db;
+}
+
+.new-expense button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-expense button.alternative:hover,
+.new-expense button.alternative:active {
+  background-color: #ddb3f8;
+}
